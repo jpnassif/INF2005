@@ -3,3 +3,51 @@
     margin: 0;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+header {
+    background-color: #1153a3;
+    height: 150px;
+    border-radius: 0 0 7px 7px;
+    color: white;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+section {
+    height: 388px;
+    padding: 1em;
+
+}
+
+nav {
+    margin-top: 2em;
+    padding-bottom: 1em;
+}
+
+nav a {
+    border-right: 2px solid white;
+    color: white;
+    padding: 0 1.5em 0 1.5em;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #1153a3;
+    border-radius: 7px 7px 0 0;
+    color: white;
+    height: 55px;
+    text-align: center;
+}
+
+h1, h4 {
+    margin: 0;
+}
+
+#joindre{
+    border-right: none;
+}
