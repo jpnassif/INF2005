@@ -1,11 +1,15 @@
-fieldset{
+fieldset {
     border: 2px solid #1153a3;
-    margin: 20px 150px 20px 150px;
+    margin: 0 150px 0 150px;
     text-align: center;
 }
 
-legend{
+legend {
     font-size: 26px;
     font-weight: bold;
+    margin: 0;
+}
+
+img {
     margin: 20px;
 }
