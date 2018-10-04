@@ -19,6 +19,10 @@ section {
 
 }
 
+fieldset{
+    border-radius: 1em;
+}
+
 nav {
     margin-top: 2em;
     padding-bottom: 1em;
@@ -40,7 +44,7 @@ footer {
     background-color: #1153a3;
     border-radius: 7px 7px 0 0;
     color: white;
-    height: 55px;
+    height: 70px;
     text-align: center;
 }
 

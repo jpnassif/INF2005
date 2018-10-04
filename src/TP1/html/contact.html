@@ -3,9 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title></title>
+    <link rel="stylesheet" href="../css/tp1.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact</title>
 </head>
 <body>
-
+    <header>
+        <h1>MANAS INFORMATIQUE</h1>
+        <h4>Services informatiques fiables</h4>
+        <nav>
+            <a href="accueil.html">Accueil</a>
+            <a href="mission.html">Mission / Vision</a>
+            <a href="equipe.html">Équipe</a>
+            <a href="service.html">Services</a>
+            <a href="tarif.html">Tarifs</a>
+            <a id="joindre" href="contact.html">Nous Joindre</a>
+        </nav>
+    </header>
+    <section id="nousJoindre">
+        <fieldset id="adresse">
+            <legend>Adresse</legend>
+            <pre>
+                Marché au puce St-Eustache
+                455, Avenue Mathers (rangé #)
+                Saint-Eustache (Québec)
+                J7P 4C1
+                Téléphone : 514-500-3334
+                info@manasinfo.com
+            </pre>
+        </fieldset>
+        <fieldset id="heureOuverture">
+            <legend>Heures d'ouverture</legend>
+            <pre>
+                Lundi    : Sur appel
+                Mardi    : Sur appel
+                Mercredi : Sur appel
+                Jeudi    : Sur appel
+                Vendredi : 11h - 21h
+                Samedi   : 9h  - 17h
+                Dimanche : 9h  - 17h
+            </pre>
+        </fieldset>
+        <fieldset id="communiquer">
+            <legend>Communiquer avec nous</legend>
+            <form>
+                <div>
+                    <label>Sexe</label>
+                    <select name="sexe" required>
+                        <option selected disabled></option>
+                        <option value="homme">M</option>
+                        <option value="femme">Mme</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Prénom</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label>Nom</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label>Numéro de téléphone</label>
+                    <input type="tel" required>
+                </div>
+                <div>
+                    <label>Adresse courriel</label>
+                    <input type="email" required>
+                </div>
+                <div>
+                    <label>Sujet</label>
+                    <input type="checkbox">Vente
+                    <input type="checkbox">Réparation
+                </div>
+                <div>
+                    <label>S'il s'agit d'un achat, quel est votre budget</label>
+                    <input type="radio" name="budget">0 - 99$
+                    <input type="radio" name="budget">100$ - 499$
+                    <input type="radio" name="budget">500$ - 799$
+                    <input type="radio" name="budget">800$ et plus
+                </div>
+                <div>
+                    <label>Message</label>
+                    <textarea name="message" cols="60" rows="10"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Soumettre</button>
+                </div>
+            </form>
+        </fieldset>
+    </section>
+    <footer>
+        <p>&copy; 2018</p>
+    </footer>
 </body>
 </html>

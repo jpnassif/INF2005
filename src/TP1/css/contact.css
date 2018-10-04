@@ -1,0 +1,57 @@
+fieldset {
+    border: 2px solid #1153a3;
+    margin: 20px;
+    width: 600px;
+}
+
+legend {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+}
+
+label{
+    margin: 10px 0 10px 0;
+    display: block;
+}
+
+input[type=text], input[type=email], input[type=tel], select{
+    width: 200px;
+    height: 30px;
+}
+
+input[type=radio], input[type=checkbox]{
+    margin: 5px 10px 15px 10px;
+}
+
+button{
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px;
+    border: 1px solid #1153a3;
+}
+
+input, select, textarea{
+    margin: 0 7px 7px 7px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #1153a3;
+    resize: none;
+}
+
+#nousJoindre{
+    width: auto;
+    height: auto;
+}
+
+#communiquer{
+    text-align: center;
+    margin: 0 0 0 330px;
+}
+#adresse, #heureOuverture {
+    float: left;
+}
+
+#adresse {
+    padding-bottom: 32px;
+}
