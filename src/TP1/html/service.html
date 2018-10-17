@@ -1,63 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/tp1.css">
     <link rel="stylesheet" href="../css/accueil.css">
     <title>Services</title>
 </head>
+
 <body>
-<header>
-    <h1>MANAS INFORMATIQUE</h1>
-    <h4>Services informatiques fiables</h4>
-    <nav>
-        <a href="accueil.html">Accueil</a>
-        <a href="mission.html">Mission / Vision</a>
-        <a href="equipe.html">Équipe</a>
-        <a href="service.html">Services</a>
-        <a href="tarif.html">Tarifs</a>
-        <a id="joindre" href="contact.html">Nous Joindre</a>
-    </nav>
-</header>
-<section id="services">
-    <p>Services offerts :</p>
-    <ul id="consultation">
-        <li>Service de consultation
-            <ul>
-                <li></li>
-            </ul>
-        </li>
-    </ul>
-    <ul id="logicielle">
-        <li>Installation logicielle</li>
-            <ol>
-                <li>Installation Windows</li>
-                <li>Installation MacOs</li>
-                <li>Installation Linux</li>
-                <li>Installation Office</li>
-                <li>Installation Antivirus</li>
-                <li>Nettoyage / Mise-à-jour logicielle</li>
-                <li>Transfert / Sauvegarde de données</li>
-            </ol>
-    </ul>
-    <ul id="materielle">
-        <li>Installation matérielle</li>
-            <ol>
-                <li>Installation carte-mère</li>
-                <li>Installation processeur</li>
-                <li>Installation disque dur</li>
-                <li>Installation carte graphique</li>
-                <li>Installation source d'alimentation</li>
-                <li>Installation mémoire vive</li>
-                <li>Installation processeur</li>
-            </ol>
-    </ul>
-    <ul id="conception">
-        <li>Conception web</li>
-    </ul>
-</section>
-<footer>
-    <p>&copy; 2018</p>
-</footer>
+    <header>
+        <h1>MANAS INFORMATIQUE</h1>
+        <h3><em>SERVICES INFORMATIQUES EXPERTS</em></h3>
+        <nav>
+            <a href="accueil.html">Accueil</a>
+            <a href="mission.html">Mission / Vision</a>
+            <a href="equipe.html">Équipe</a>
+            <a href="service.html">Services</a>
+            <a href="tarif.html">Tarifs</a>
+            <a id="joindre" href="contact.html">Nous Joindre</a>
+        </nav>
+    </header>
+
+    <section id="services">
+        <ol>
+            <li id="consultation">
+                <p><b>Services de consultation</b></p>
+                <ul>
+                    <li>Rapport d'évaluation professionnel</li>
+                    <li>Estimé de correctifs</li>
+                    <li>Recommandations professionnelles</li>
+                    <li>Référence sous-traitance</li>
+                    <li>Rapport d'expertises</li>
+                </ul>
+            </li>
+
+            <li id="logicielle">
+                <p><b>Services d'installation logicielle</b></p>
+                <ul>
+                    <li>Installation système d'exploitation<br>
+                        <select name="Système">
+                            <option value="windows">Microsoft Windows</option>
+                            <option value="macos">MacOS</option>
+                            <option value="linux">Linux</option>
+                        </select>
+                    </li>
+                    <li>Installation logicielle<br>
+                        <select name="Logiciels">
+                            <option value="office">Microsoft Office</option>
+                            <option value="antivirus">Suite Antivirus</option>
+                            <option value="autre">Comptabilité / Autres</option>
+                        </select>
+                    </li>
+                    <li>Nettoyage / Mise-à-jour logicielle<br>
+                        <select name="Nettoyages">
+                            <option value="virus">Nettoyage virus</option>
+                            <option value="espion">Nettoyage espions</option>
+                            <option value="maj">Mise-à-jour et optimisation</option>
+                        </select>
+                    </li>
+                    <li>Récupération / Sauvegarde de données<br>
+                        <select name="Données">
+                            <option value="donneesPerdues">Récupération de données perdues, effacées ou endommagées</option>
+                            <option value="donneesSaines">Sauvegarde de données utilisateur</option>
+                            <option value="imageSysteme">Sauvegarde de système (image)</option>
+                        </select>
+                    </li>
+                </ul>
+            </li>
+
+            <li id="materielle">
+                <p><b>Services d'installation matérielle</b></p>
+                <ul>
+                    <li>Installations<br>
+                        <select name="Matériel">
+                            <option value="motherboard">Carte mère</option>
+                            <option value="processor">Processeur</option>
+                            <option value="hdd">Disque Dur</option>
+                            <option value="videocard">Carte video</option>
+                            <option value="powersupply">Source d'alimentation</option>
+                            <option value="memory">Mémoire vive</option>
+                        </select>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2018</p>
+        <div id="manufacturiers">
+            <a href="http://www.hp.ca">
+                <img src="../images/hpLogo.png" alt="hp Logo">
+            </a>
+            <a href="http://www.toshiba.ca">
+                <img src="../images/toshibaLogo.png" alt="Toshiba Logo">
+            </a>
+            <a href="http://www.lenovo.com">
+                <img src="../images/lenovoLogo.png" alt="Lenovo Logo">
+            </a>
+            <a href="http://www.dell.ca">
+                <img src="../images/dellLogo.png" alt="Dell Logo">
+            </a>
+            <a href="http://www.samsung.ca">
+                <img src="../images/samsungLogo.png" alt="Samsung Logo">
+            </a>
+            <a href="http://www.microsoft.ca">
+                <img src="../images/microsoftLogo.png" alt="Microsoft Logo">
+            </a>
+            <a href="http://www.apple.ca">
+                <img src="../images/macLogo.png" alt="Apple Logo">
+            </a>
+        </div>
+    </footer>
 </body>
+
 </html>
