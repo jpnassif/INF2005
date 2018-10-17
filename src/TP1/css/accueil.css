@@ -15,7 +15,7 @@ a h3:link, a h3:visited, a h3:active{
 }
 
 #venteReparation {
-    display: inline-block;
+    display: inline-flex;
 }
 
 #vente, #reparation {
@@ -23,7 +23,8 @@ a h3:link, a h3:visited, a h3:active{
     margin: 30px 50px 30px 50px;
 }
 
-#imgReparation {
-    float: left;
+#imgReparation img{
+    width: 350px;
     margin: 30px 50px 30px 50px;
 }
+

@@ -1,9 +1,9 @@
 fieldset {
     border: 2px solid #1153a3;
     color: #1153a3;
-    margin: 0;
-    padding: 0;
     text-align: center;
+    float : center;
+    height : 11em;
 }
 
 legend {
@@ -16,9 +16,4 @@ legend {
 
 pre {
     font-size: 20px;
-}
-
-img {
-    float: left;
-    margin: 30px;
 }

@@ -1,6 +1,5 @@
 fieldset {
     border: 2px solid #1153a3;
-    margin: 0 150px 0 150px;
     text-align: center;
 }
 
@@ -10,7 +9,6 @@ legend {
     margin: 0;
 }
 
-img {
-    margin: 20px;
-    border-radius: 8px;
+#equipe img{
+    height:250px;
 }
