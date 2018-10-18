@@ -14,12 +14,12 @@ header {
 }
 
 section {
-    height: 388px;
-    padding: 1em;
+    height: auto;
+    padding: 1em 1em 5em 1em;
 
 }
 
-fieldset{
+fieldset {
     border-radius: 1em;
 }
 
@@ -44,20 +44,22 @@ footer {
     background-color: #000f20;
     border-radius: 7px 7px 0 0;
     color: white;
-    height: 4.5em;
     text-align: center;
-    position: relative;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
 }
 
 h1, h4 {
     margin: 0;
 }
 
-#joindre{
+#joindre {
     border-right: none;
 }
 
-#manufacturiers img{
+#manufacturiers img {
     height: 2em;
     padding-left: 1em;
     padding-right: 1em;

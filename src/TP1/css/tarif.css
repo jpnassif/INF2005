@@ -1,3 +1,17 @@
-#tarifs thead{
+#tarifs thead {
+    text-align: left;
+}
+
+table, th {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+
+}
+
+caption{
     text-align: left;
 }

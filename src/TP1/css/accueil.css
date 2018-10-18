@@ -1,16 +1,16 @@
-ul{
+ul {
     list-style-type: circle;
 }
 
-img{
+img {
     border-radius: 7px;
 }
 
-a h3:hover{
+a h3:hover {
     color: dodgerblue;
 }
 
-a h3:link, a h3:visited, a h3:active{
+a h3:link, a h3:visited, a h3:active {
     color: #1153a3;
 }
 
@@ -23,7 +23,7 @@ a h3:link, a h3:visited, a h3:active{
     margin: 30px 50px 30px 50px;
 }
 
-#imgReparation img{
+#imgReparation img {
     width: 350px;
     margin: 30px 50px 30px 50px;
 }

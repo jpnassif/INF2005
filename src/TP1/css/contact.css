@@ -8,28 +8,28 @@ legend {
     margin: 0;
 }
 
-label{
+label {
     margin: 10px 0 10px 0;
     display: block;
 }
 
-input[type=text], input[type=email], input[type=tel], select{
+input[type=text], input[type=email], input[type=tel], select {
     width: 200px;
     height: 30px;
 }
 
-input[type=radio], input[type=checkbox]{
+input[type=radio], input[type=checkbox] {
     margin: 5px 10px 15px 10px;
 }
 
-button{
+button {
     border-radius: 5px;
     font-size: 20px;
     margin: 10px;
     border: 1px solid #1153a3;
 }
 
-input, select, textarea{
+input, select, textarea {
     margin: 0 7px 7px 7px;
     border-radius: 5px;
     box-shadow: none;
@@ -37,22 +37,35 @@ input, select, textarea{
     resize: none;
 }
 
-#contactez{
+#redirigerACommuniquer{
+    background-color: #000f20;
+    border: 1px solid #000f20;
+    border-radius: 8px;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    padding: 6px;
+    text-decoration: none;
+    width: 100%;
+}
+
+#contactez {
     width: auto;
     height: auto;
 }
 
-#communiquer{
+#communiquer {
     text-align: center;
 }
 
 #addresse {
-    float: left   ;
+    float: left;
     height: 20em;
     width: 45%;
 }
-#heuresOuverture { 
-    float: right   ;
+
+#heuresOuverture {
+    float: right;
     height: 20em;
     width: 45%;
 }
